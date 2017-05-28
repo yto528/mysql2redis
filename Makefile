@@ -1,4 +1,4 @@
-PLUGINDIR = "/usr/lib64/mysql/plugin"
+PLUGINDIR = "/usr/lib/mysql/plugin"
 INCLUDE=`/usr/bin/mysql_config --include` -I/usr/local/include  -I/usr/local/apr/include -I./
 LIBS=-lhiredis -L$(PLUGINDIR)  -L/usr/local/apr/lib  -lapr-1  -laprutil-1 
 
